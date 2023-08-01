@@ -1,13 +1,13 @@
 {
   "stats": {
-    "suites": 11,
-    "tests": 27,
-    "passes": 27,
+    "suites": 12,
+    "tests": 30,
+    "passes": 30,
     "pending": 0,
     "failures": 0,
-    "start": "2023-08-01T14:47:09.296Z",
-    "end": "2023-08-01T14:47:09.453Z",
-    "duration": 157
+    "start": "2023-08-01T15:01:38.656Z",
+    "end": "2023-08-01T15:01:38.816Z",
+    "duration": 160
   },
   "tests": [
     {
@@ -104,7 +104,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js myFind does not traverse the whole array if the value is found early",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -146,7 +146,7 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -167,6 +167,27 @@
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers and arrays of strings",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers and arrays of strings",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original arrays",
+      "fullTitle": "index.js mySortBy does not modify the original arrays",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers with non-standard sort",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers with non-standard sort",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
@@ -297,7 +318,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js myFind does not traverse the whole array if the value is found early",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -339,7 +360,7 @@
     {
       "title": "returns the first element of the collection",
       "fullTitle": "index.js myFirst returns the first element of the collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -360,6 +381,27 @@
     {
       "title": "returns the last n elements of the collection when the second optional argument (n) is provided",
       "fullTitle": "index.js myLast returns the last n elements of the collection when the second optional argument (n) is provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers and arrays of strings",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers and arrays of strings",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not modify the original arrays",
+      "fullTitle": "index.js mySortBy does not modify the original arrays",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "correctly sorts arrays of integers with non-standard sort",
+      "fullTitle": "index.js mySortBy correctly sorts arrays of integers with non-standard sort",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

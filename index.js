@@ -106,3 +106,18 @@ function myValues(object) {
     }
     return res
 }
+
+
+function mySortBy(array, fun) {
+    const res = array.slice()
+    function compareFn(a, b) {
+        if(fun(a) < fun(b)) {
+            return -1
+        }
+        if(fun(a) > fun(b)) {
+            return 1
+        }
+        return 0
+    }
+    return res.sort(compareFn)
+}
